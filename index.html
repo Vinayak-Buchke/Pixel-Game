@@ -24,14 +24,54 @@
       cursor: pointer;
       font-size: 16px;
     }
+      .device-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+         .zoom-level {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .zoom-controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            button {
+                width: 200px;
+            }
+        }
 
     button:hover {
       background-color: #ddd;
     }
+
+
   </style>
 </head>
 
-<div style="display: inline-block; position: relative">
+<div style="display: inline-block; position: relative" >
   <div
     id="overlappingDiv"
     style="
@@ -135,7 +175,7 @@
         left: 0;
         right: 0;
         border-top: 4px black solid;
-        display: flex;
+        display: flex
       "
     >
       <div

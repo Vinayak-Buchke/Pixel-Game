@@ -42,6 +42,9 @@ collisionsMap.forEach((row, i) => {
 
 const battleZones = []
 
+window.addEventListener('load', function() {
+    audio.Map.play();
+});
 battleZonesMap.forEach((row, i) => {
   row.forEach((symbol, j) => {
     if (symbol === 1025)
@@ -80,7 +83,7 @@ charactersMap.forEach((row, i) => {
           },
           scale: 3,
           animate: true,
-          dialogue: ['...', 'Hey mister, have you seen my Doggochu?']
+          dialogue: ['...', 'Hey there thanks for visiting my game , Have a great day !!!    ~ Yours Sincerely , Vinayak ']
         })
       )
     }
@@ -98,7 +101,7 @@ charactersMap.forEach((row, i) => {
             hold: 60
           },
           scale: 3,
-          dialogue: ['My bones hurt.']
+          dialogue: ['What did the sea say to the land ?? Nothing it just waved , BWAAHAHA !!']
         })
       )
     }
@@ -479,10 +482,5 @@ window.addEventListener('keyup', (e) => {
   }
 })
 
-let clicked = false
-addEventListener('click', () => {
-  if (!clicked) {
-    audio.Map.play()
-    clicked = true
-  }
-})
+
+
