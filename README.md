@@ -1,5 +1,5 @@
-# Pokémon Game ![Live_Link](https://vinayak-buchke.github.io/Pixel-Game/)
-
+# Pokémon Game  
+## 🌐 [Live_Link](https://vinayak-buchke.github.io/Pixel-Game/)
 A browser-based Pokémon game built with HTML5, CSS3, JavaScript, and Canvas, featuring maps created with Tiled.
 
 ![Pokémon Game](https://img.shields.io/badge/Game-Pokémon-blue)
